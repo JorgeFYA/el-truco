@@ -21,7 +21,9 @@
     <!--NavBar-->
     <div class="navbar-container sticky-top py-3">
       <nav class="navbar navbar-expand-lg navbar-dark navbar-farm px-4">
-        <a class="navbar-brand fw-bold" href="index.html">El Truco</a>
+        <a class="navbar-brand" href="index.html">
+            <img src="./img/LogoB.svg" alt="Logo de El Truco" class="navbar-logo">
+        </a>
 
         <a href="#" class="navbar-icon ms-auto me-3 d-lg-none" aria-label="Ver carrito de compras">
             <i class="bi bi-basket2-fill fs-5"></i>
@@ -37,7 +39,7 @@
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#galeria">Catálogo</a>
+              <a class="nav-link" href="products.html">Catálogo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="about.html">Acerca de Nosotros</a>
@@ -48,7 +50,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="recipes.html">Recetas</a></li>
-                <li><a class="dropdown-item" href="#">Nuestras Gallinas</a></li>
+                <li><a class="dropdown-item" href="our-chickens.html">Nuestras Gallinas</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -71,110 +73,112 @@
       </nav>
     </div>
     <!--END NavBar-->
-    <div class="bg-pattern-normal">
+    <main class="bg-pattern-normal">
+      <!-- Primera Sección: HISTORIA -->
+       <section class="text-center">
+        <div class="container py-5">
+          <h1>Acerca de Nosotros</h1>
+          <h5 class="mt-3">Huevos frescos y nutritivos, producidos con calidad y respeto</h5>
+        </div>
+      </section>
 
-      <div class="contenido">
-        <!-- Primera Sección: HISTORIA -->
-        <div class="container">
-          <section class="section bg-main text text-center">
-            <div class="px-5">
-              <h1 class="text-main ">ACERCA DE NOSOTROS</h1>
-              <h2 class="text-historia text-left">¡¡NUESTRA HISTORIA!!</h2>
-              <p class="text-body col-8 text-left">
-                En <b>El Truco</b> nos dedicamos a ofrecer huevos frescos y nutritivos, producidos con calidad, frescura y respeto por nuestras gallinas. .
-              </p>
-            </div>
-          </section>
           <!-- Descripción -->
-          <div class="px-5">
-            <div class="row row-responsiva">
-              <div class="col d-flex justify-content-center align-items-center shadow-container" >
-                <img src="./img/huevos-historia.webp" alt="Imagen Historia" class="mx-auto d-block imagen-columna-ajustada">
+           <section class="container">
+            <div class="row align-items-center justify-content-center g-5">
+              <div class="col-lg-5 col-md-10 col-sm-10" >
+                <img src="./img/1.webp" alt="Imagen Historia" class="mx-auto imagen-columna-ajustada">
               </div>
-              <div class="col">
-                <b>
-                  Inspirados en la tradición del campo oaxaqueño, llevamos a tu mesa un alimento sano, responsable y lleno de frescura. 
-                </b>  
-                <br>
-                  <p> Trabajamos día a día para lograr una producción 100% orgánica y transparente, donde cada cliente conozca el origen de lo que consume y confíe plenamente en nuestra granja.
-                  </p>
-                  <div class="lista">
-                    <p><b>Compromiso con la calidad</b></p>
-                    <p><b>Respeto por la naturaleza</b></p>
-                    <p><b>Respeto por el consumidor</b></p>
-                  </div>
+              <div class="col-lg-7 col-md-10 col-sm-10 about-body my-auto">
+                <h2 class="text-center text-lg-start my-3">Nuestra Historia</h2>
+                <h3 class="about-strong-alt my-4"> Inspirados en la tradición del campo oaxaqueño, llevamos a tu mesa un alimento sano, responsable y lleno de frescura. </h3>  
+                <p>En El Truco nos dedicamos a ofrecer huevos frescos y nutritivos, producidos con calidad, frescura y respeto por nuestras gallinas. </p>
+                
+                <p> Trabajamos día a día para lograr una producción 100% orgánica y transparente, donde cada cliente conozca el origen de lo que consume y confíe plenamente en nuestra granja.</p>
+                <a href="our-chickens.html" class="btn btn-verde my-3" role="button"> Conoce nuestras gallinas </a>
               </div>
             </div>
-          </div>
-          <hr>
-        </div>
-  
+           </section>
+
         <!-- Segunda Sección: MISION -->
+         <section class="mision-section">
         <div class="container">
-          <section class="section bg-main text-center">
-            <div class="px-5">
-              <h2 class="text-main">MISIÓN</h2>
-            </div>
-          </section>
+              <div class="row  justify-content-around align-items-center g-5">
+                <div class="col-md-10 col-lg-7">
+                  <h2 class="text-center text-lg-start my-3">Misión</h2>
+                  <div class=" about-body mb-5">
+                    <p> Producir alimentos avícolas de alta calidad a través del cuidado responsable y ético de nuestras gallinas, garantizando productos frescos, nutritivos y confiables. </p>
+                    <p >Buscamos ser una opción cercana, sustentable y consciente que beneficie tanto a las familias como al medio ambiente.</p>
+                  </div>
+                    <p class="about-strong"> “Cuidamos cada huevo como si fuera para nuestra propia familia.”
+                    </p>
+                    <p> - Eduardo Trueba, dueño de la Granja El Truco</p>
+              </div>
           <!-- Descripción -->
-        
-          <div class="px-5">
-            <p>
-              En El Truco trabajamos para ofrecer huevos frescos, nutritivos y de alta calidad, producidos con el mínimo de químicos y bajo un modelo responsable con el medio ambiente. Cuidamos cada etapa del proceso, desde la alimentación de nuestras gallinas hasta la entrega del producto, garantizando confianza, transparencia y una experiencia cercana con nuestros clientes. Apostamos por la innovación y la tecnología para mejorar nuestros procesos, siempre con el objetivo de que cada hogar disfrute de un producto seguro, fresco y responsable.
-            </p>
-            <div class="d-flex justify-content-center">
-              <img src="./img/imagen-mision.webp" alt="Imagen Mision" class="imagen-ajustada ">
+            <div class="col-md-10 col-lg-5 justify-content-end">
+              <img src="./img/familia.webp" alt="Imagen Mision" class="imagen-columna-ajustada-der ">
             </div>
           </div>
         </div>
+        </section>
   
         <!-- Tercera Sección: VISION -->
-        <div class="container">
-          <hr>
-          <section class="section bg-main text text-center">
-            <div class="px-5">
-              <h2 class="text-main">VISION</h2>
+        <section class="container">
+            <div class="row justify-content-around align-items-center g-5">
+              <div class="col-lg-5 col-md-10">
+                <img src="./img/gallinas-about.jpg" alt="Imagen Mision" class="mx-auto d-block imagen-columna-ajustada">
+              </div>
+              <div class="col-lg-7 col-md-10">
+                <h2 class="text-center text-lg-start my-3">Visión</h2> 
+                <div class="about-body mb-5">
+                  <p> Ser una granja avícola reconocida por su modelo responsable, eficiente y humano, combinando tecnología, bienestar animal y producción sustentable. </p>
+                <p>Buscamos crecer sin perder nuestros valores, expandiendo nuestra presencia en el mercado y convirtiéndonos en un referente de calidad y confianza. </p>
+                </div>
+                <p class="about-strong-alt">“Soñamos con un campo vivo, sustentable y lleno de oportunidades para todos.”</p>
+               <p> - Eduardo Trueba, dueño de la Granja El Truco</p>
+              </div>
             </div>
-          </section>
-          <!-- Descripción -->
-          <div class="px-5">
-            <p>
-              Queremos consolidarnos como un referente nacional en la producción de huevos orgánicos, alcanzando un proceso 100% natural que garantice alimentos libres de químicos, frescos y con alto valor nutricional. Nos visualizamos como una empresa que combine tradición agrícola con innovación, generando confianza y contribuyendo al bienestar de las familias mexicanas. Buscamos inspirar a la comunidad a valorar el campo y consumir de forma responsable, construyendo un futuro en el que El Truco sea sinónimo de frescura, calidad, respeto animal y compromiso con el entorno.
-            </p>
-            <img src="./img/imagen-vision.webp" alt="Imagen Mision" class="imagen-ajustada">
-          </div>
-          <hr>
-        </div>
+        </section>
   
         <!-- Cuarta Sección: VALORES -->
-        <div class="container">
-          <section class="section bg-main text text-center">
-            <div class="px-5">
-              <h2 class="text-main">VALORES DE LA EMPRESA</h2>
+         
+        <section class="valores-section">
+          <div class="container">
+          <h2 class="text-center mb-5">Nuestros Valores</h2>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="valor-item">
+                <h5><i class="bi bi-heart-fill me-2"></i>Bienestar Animal</h5>
+                <p>El cuidado de nuestras aves es la base de todo lo que hacemos.</p>
+              </div>
             </div>
-          </section>
-          <!-- Descripción -->
-          <div class="px-5">
-            <div class="contenedor"> <!-- Esta clase está definida en Css -->
-                <img src="./img/logo-original.webp" alt="Decoración" class="fondo-img">
-              <p>
-                <b>Calidad: </b>Nos esforzamos en mantener altos estándares en cada huevo que entregamos. 
-              </p>
-              <p>  
-                <b>Cuidado animal: </b>Promovemos el bienestar de nuestras gallinas como pilar fundamental de la producción.
-              </p>
-              <p>
-                <b>Responsabilidad sanitaria: </b>Cumplimos con procesos limpios y seguros que protegen la salud del consumidor.
-              </p>
-              <p>
-                <b>Buen trato al consumidor: </b>Creemos en la atención honesta, cercana y confiable, construyendo relaciones duraderas con nuestros clientes.
-              </p>
-              </p>
+            <div class="col-md-6 col-lg-4">
+              <div class="valor-item">
+                <h5><i class="bi bi-shield-check me-2"></i>Responsabilidad</h5>
+                <p>Trabajamos con prácticas limpias y sustentables.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="valor-item">
+                <h5><i class="bi bi-award-fill me-2"></i>Calidad</h5>
+                <p>Cada producto refleja nuestro compromiso y dedicación.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="valor-item">
+                <h5><i class="bi bi-check-circle-fill me-2"></i>Honestidad</h5>
+                <p>Transparencia con nuestros clientes y comunidad.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="valor-item">
+                <h5><i class="bi bi-graph-up-arrow me-2"></i>Mejora Constante</h5>
+                <p>Siempre buscamos aprender, innovar y crecer.</p>
+              </div>
             </div>
           </div>
-          <!-- End Section -->
         </div>
-      </div>
+      </section>
+     
   
       <!-- FOOTER -->
       <footer class="footer mt-auto py-3 custom-footer">
@@ -231,7 +235,7 @@
         </div>
       </footer>
       <!-- END FOOTER -->
-    </div>
+    </main>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
