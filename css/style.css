@@ -386,6 +386,61 @@ img {
 
 /* FAQS + AVISOS UNIFICADOS */
 
+/* acordeón */
+
+.accordion-button {
+  background-color: var(--text-color-alt); /* Fondo del botón */
+  color: #2e2117;
+  font-weight: 600;
+  font-family: var(--font-body);
+  border-radius: 7px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #8c4731;
+  color: var(--white-color);
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.accordion-item {
+  background-color: var(--color-card-1); /* Fondo de la tarjeta */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.accordion-body {
+  background-color: var(--color-bg);
+  color: #2e2117;
+  border-radius: 0 0 10px 10px;
+}
+
+.accordion-body h5 {
+  color: var(--text-color-alt);
+  font-family: var(--font-body);
+  font-weight: var(--font-semi-bold);
+}
+
+.accordion-body ul,
+.accordion-body ol {
+  color: #2e2117;
+}
+
+.accordion-body li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.accordion-body p {
+  line-height: 1.7;
+  text-align: justify;
+}
+
 /* Botón Principal/Relleno */
 .btn-avisos {
   background-color: var(--text-highlight-alt);
@@ -463,8 +518,7 @@ img {
   text-decoration: none;
 }
 
-/* FAQS + AVISOS UNIFICADOS */
-
+/* END FAQS + AVISOS UNIFICADOS */
 
 
 /* RECETAS */
